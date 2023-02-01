@@ -281,6 +281,12 @@ module.exports = {
         sourceType: 'module',
       },
       rules: {
+        'prettier/prettie': [
+          'error',
+          {
+            endOfLine: 'auto',
+          },
+        ],
         'import/unambiguous': 'off',
         'import/named': 'off',
         'jest/no-large-snapshots': [
